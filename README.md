@@ -15,6 +15,6 @@ All the models implemented were saved in the folder Models. These models include
 EDA has significally improved the performances of the models (Random Forest MSE on the test set dimished by 12%).
 Ensemble models showed much better performances with respect to linear regression. The best ensemble model (XGBoost) allowed to reduce MSE on the test set up to 31% with respect to the best regression model (Ridge).
 
-A more detailed description of the project is presented in the file Life_Expectancy_Slides
+A more detailed description of the project is presented in the file Life_Expectancy_Slides.pdf
 
 
