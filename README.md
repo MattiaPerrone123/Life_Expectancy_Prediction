@@ -12,8 +12,8 @@ The dataset used (Life_Expectancy_Data.csv) is a public dataset made available b
 All the models implemented were saved in the folder Models. These models include linear regression models (Vanilla, Ridge, Lasso) and ensemble models (Bagging, Random Forest, XGBoost). The Model folder also includes a Random Forest Classifier (RFC) trained on the dataset before exploratory data analysis was conducted, in order to show the impact of EDA on the results obtained.
 
 ## Results
-EDA has significally improved the performances of the models (Random Forest MSE on the test set dimished by 21%).
-Ensemble models showed much better performances with respect to linear regression. The best ensemble model (XGBoost) allowed to reduce MSE on the test set up to 36% with respect to the best regression model (Ridge).
+EDA has significally improved the performances of the models (Random Forest MSE on the test set dimished by 12%).
+Ensemble models showed much better performances with respect to linear regression. The best ensemble model (XGBoost) allowed to reduce MSE on the test set up to 31% with respect to the best regression model (Ridge).
 
 A more detailed description of the project is presented in the file Life_Expectancy_Slides.ppt
 
