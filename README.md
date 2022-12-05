@@ -2,6 +2,8 @@
 The current project aims at predicting the life expectancy of a country given its main health indexes using linear regression (Vanilla, Ridge, Lasso) and ensemble methods (Bagging, Random Forest, XGBoost). 
 The first part of the project is focused on exploratory data analysis (outliers and missing values handling), while the second part is focused on implementing different models to accomplish the project aim.
 
+The project code is available in the file Life_Expectancy_Prediction.ipynb
+
 ## Dependencies
 A list of the packages used for this project is included in the file Requirements.txt
 
