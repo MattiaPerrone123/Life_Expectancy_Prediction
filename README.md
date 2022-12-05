@@ -9,14 +9,12 @@ A list of the packages used for this project is included in the file requirement
 The dataset used (Life_Expectancy_Data.csv) is a public dataset made available by the World Health Organization (WHO) for the purpose of health data analysis. 20 predictor variables for 193 countries from year 2000 to 2015 were considered to predict life expectancy. A description of the dataset features is included in the file Dataset_description.txt
 
 ## Models
-dico quali ho fatto e dico che li ho salvati nella folder model con i parametri scelti
+All the models implemented were saved in the folder Models. These models include linear regression models (Vanilla, Ridge, Lasso) and ensemble models (Bagging, Random Forest, XGBoost). The Model folder also include a Random Forest Classifier (RFC) trained on the dataset before exploratory data analysis was conducted, in order to compare to show the impact of EDA on the results obtained.
 
 ## Results
-EDA has significally improved the performance of the model (MSE on the test set dimished by 21%). -> outliers handling and missing values handling
-Ensemble models showed much better performance with respect to linear regression (MSE on the test set dimished by 36%).
+EDA has significally improved the performances of the models (Random Forest MSE on the test set dimished by 21%).
+Ensemble models showed much better performance with respect to linear regression. The best ensemble model (XGBoost) allowed to reduce MSE on the test set up to 36% with respect to the best regression model (Ridge).
 
-The best ensemble model (XGBoost) allowed to reduce MSE on the test set up to 36% with respect to the best regression model (Ridge).
-
-
+A more detailed description of the project is presented in the file Life_Expectancy_Slides.ppt
 
 
