@@ -1,14 +1,12 @@
 # Life Expectancy Prediction
 The current project aims at predicting the life expectancy of a country given its main health indexes using linear regression (Vanilla, Ridge, Lasso) and ensemble methods (Bagging, Random Forest, XGBoost). 
-Dico che due parti progetto -> EDA (focus on removing outliers and missing values handling e ) e Modelli
-Dico che c'è anche un ppt (che in realtà non c'è ancora)
+The first part of the project is focused on exploratory data analysis (outliers and missing values handling), while the second part is focused on implementing different models to accomplish the project aim.
 
 ## Dependencies
-Dire di guardare il file requirements.txt
+A list of the packages used for this project is included in the file requirements.txt
 
 ## Dataset
-Dire da dove l'ho preso (WhO), che file è (il csv)
-E che ho description delle feature nel file Dataset_description.txt
+The dataset used (Life_Expectancy_Data.csv) is a public dataset made available by the World Health Organization (WHO) for the purpose of health data analysis. 20 predictor variables for 193 countries from year 2000 to 2015 were considered to predict life expectancy. A description of the dataset features is included in the file Dataset_description.txt
 
 ## Models
 dico quali ho fatto e dico che li ho salvati nella folder model con i parametri scelti
